@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage("Pull Code") {
             steps {
-               git branch: "main", url: "https://github.com/Shashikant7353/Shashi.git"
+               git branch: "master", url: "https://github.com/Shashikant7353/Mv2.git"
             }
         }
         stage("Maven Build") {
